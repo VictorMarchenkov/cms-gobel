@@ -1,0 +1,24 @@
+.DS_STORE
+
+# env file
+.env
+
+# docker-compose
+elasticsearch/nodes
+!/elasticsearch/nodes/.gitkeep
+
+mysql/data
+!/mysql/data/.gitkeep
+
+mysql/log
+!/mysql/log/.gitkeep
+
+redis/data
+!/redis/data/.gitkeep
+
+redis-insight/data
+!redis-insight/data/.gitkeep
+
+# editor
+.vscode/
+launch.json
